@@ -3,7 +3,7 @@
 import random
 
 def get_numbers_ticket(min: int, max: int, quantity: int) -> list:
-    """The function ea certain number of random numbers from a given range"""
+    """The function select certain number of random numbers from a given range"""
     if not isinstance(min, int) or not isinstance(max, int) or not isinstance(quantity, int):
         print("At least one of the arguments is not an integer. Check the input data is correct.")
         result = None
